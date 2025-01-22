@@ -8,7 +8,7 @@ public class KEN extends Structure {
         Random random = new Random();
         int i = random.nextInt(5) + 1;
 
-        System.out.print(getRandomWords(i-1))
+        //System.out.print(getRandomWords().phrase(i-1));
 
 
         // TODO Auto-generated method stub

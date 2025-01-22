@@ -18,7 +18,7 @@ public class Main
         wordsList.add(new Perttu());
         //11
 
-        //structureList.add(new Haiku());
+        structureList.add(new PKH());
         //A
         //B
         structureList.add(new RPD());
