@@ -27,7 +27,7 @@ public class Main {
         //G
 
         for (Words w : wordsList) {
-            for (int i = 0; i < 5; i++) {
+            for (int i = 1; i <= 5; i++) {
                 System.out.println(w.phrase(i));
             }
         }
