@@ -26,19 +26,34 @@ public class Katanu implements Words {
 
         for (int i = 0; i < syllableCount; i++){
             if (syllableCount == 1){
-                result.append(oneSyllable[random.nextInt(oneSyllable.length)]);
+                int choice1 = random.nextInt(5) + 1;
+                for (int i = 0; i < choice1; i++){
+                    result.append(oneSyllable[random.nextInt(oneSyllable.length)]);
+                }
             }
             else if(syllableCount == 2){
-                result.append(twoSyllables[random.nextInt(twoSyllables.length)]);
+                int choice2 = random.nextInt(5) + 1;
+                for (int i = 0; i < choice2; i++){
+                    result.append(twoSyllables[random.nextInt(twoSyllables.length)]);
+                }
             }
             else if (syllableCount == 3){
-                result.append(threeSyllables[random.nextInt(threeSyllables.length)]);
+                int choice3 = random.nextInt(5) + 1;
+                for (int i = 0; i < choice3; i++){
+                    result.append(threeSyllables[random.nextInt(threeSyllables.length)]);
+                }
             }
             else if (syllableCount == 4){
-                result.append(fourSyllables[random.nextInt(fourSyllables.length)]);
+                int choice4 = random.nextInt(5) + 1;
+                for (int i = 0; i < choice4; i++){
+                    result.append(fourSyllables[random.nextInt(fourSyllables.length)]);
+                }
             }
             else if (syllableCount == 5){
-                result.append(fiveSyllables[random.nextInt(fiveSyllables.length)]);
+                int choice5 = random.nextInt(5) + 1;
+                for (int i = 0; i < choice5; i++){
+                    result.append(fiveSyllables[random.nextInt(fiveSyllables.length)]);
+                }
             }
             else {
                 return "error";
