@@ -7,12 +7,12 @@ public class Main
     public static void main(String args[]) {
         //wordsList.add(new YourName());
         //1
-        //2
-        //3
-        //4
-        //5
-        //wordsList.add(new KCMetzger());
-        //7
+        wordsList.add(new StudentKyle());
+        wordsList.add(new NoahRandel());
+        wordsList.add(new Ethan());
+        wordsList.add(new FrankieN());
+        wordsList.add(new KCMetzger());
+        wordsList.add(new Katanu());
         wordsList.add(new RafailLishman());
         wordsList.add(new DDreblow());
         //10
