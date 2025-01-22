@@ -22,7 +22,7 @@ public class Katanu implements Words {
 
         Random random = new Random();
 
-        int syllableCount = random.nextInt(5) + 1;
+        int syllableCount = syllables;
 
         if (syllableCount < 1 || syllableCount > 5) {
             throw new IllegalArgumentException("Syllable count must be between 1 and 5.");
@@ -33,31 +33,31 @@ public class Katanu implements Words {
         for (int i = 0; i < syllableCount; i++){
             if (syllableCount == 1){
                 int choice1 = random.nextInt(5) + 1;
-                for (int i = 0; i < choice1; i++){
+                for (int a = 0; a < choice1; a++){
                     result.append(oneSyllable[random.nextInt(oneSyllable.length)]);
                 }
             }
             else if(syllableCount == 2){
                 int choice2 = random.nextInt(5) + 1;
-                for (int i = 0; i < choice2; i++){
+                for (int b = 0; b < choice2; b++){
                     result.append(twoSyllables[random.nextInt(twoSyllables.length)]);
                 }
             }
             else if (syllableCount == 3){
                 int choice3 = random.nextInt(5) + 1;
-                for (int i = 0; i < choice3; i++){
+                for (int c = 0; c < choice3; c++){
                     result.append(threeSyllables[random.nextInt(threeSyllables.length)]);
                 }
             }
             else if (syllableCount == 4){
                 int choice4 = random.nextInt(5) + 1;
-                for (int i = 0; i < choice4; i++){
+                for (int d = 0; d < choice4; d++){
                     result.append(fourSyllables[random.nextInt(fourSyllables.length)]);
                 }
             }
             else if (syllableCount == 5){
                 int choice5 = random.nextInt(5) + 1;
-                for (int i = 0; i < choice5; i++){
+                for (int e = 0; e < choice5; e++){
                     result.append(fiveSyllables[random.nextInt(fiveSyllables.length)]);
                 }
             }
