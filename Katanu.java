@@ -24,6 +24,10 @@ public class Katanu implements Words {
 
         int syllableCount = random.nextInt(5) + 1;
 
+        if (syllableCount < 1 || syllableCount > 5) {
+            throw new IllegalArgumentException("Syllable count must be between 1 and 5.");
+        }
+
         StringBuilder result = new StringBuilder();
 
         for (int i = 0; i < syllableCount; i++){
