@@ -1,6 +1,8 @@
 import java.util.Random;
 
 public class Katanu implements Words {
+
+    @Override
     public String phrase() {
         String[] oneSyllable = {
             "I", "love", "this", "class", "book"
