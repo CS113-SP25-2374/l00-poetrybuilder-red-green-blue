@@ -4,6 +4,6 @@ public class NoahRandel implements Words {
 
 
     public String phrase(int syllables){
-        return wordlist[syllables];
+        return wordlist[syllables-1];
     }
 }
