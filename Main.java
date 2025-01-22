@@ -11,7 +11,7 @@ public class Main
         //3
         //4
         //5
-        //6
+        //wordsList.add(new KCMetzger());
         //7
         wordsList.add(new RafailLishman());
         wordsList.add(new DDreblow());
