@@ -27,7 +27,7 @@ public class RafailLishman implements Words{
     @Override
     public String phrase(int syllables){
             try {
-                return myPhrase[(syllables)];
+                return myPhrase[(syllables-1)];
             } 
             catch (IndexOutOfBoundsException e) {
                 System.out.println("Sorry but please pick a syllable that's between 1 and 5!");
