@@ -4,9 +4,9 @@ public class Main {
     static ArrayList<Words> wordsList = new ArrayList<>();
     static ArrayList<Structure> structureList = new ArrayList<>();
     public static void main(String args[]) {
-        //wordsList.add(new ProfHorton());
+        wordsList.add(new ProfHorton());
         //1
-        //2
+        wordsList.add(new Ethan());
         //3
         //4
         //5
@@ -27,7 +27,7 @@ public class Main {
         //G
 
         for (Words w : wordsList) {
-            for (int i = 1; i <= 5; i++) {
+            for (int i = 0; i < 5; i++) {
                 System.out.println(w.phrase(i));
             }
         }
