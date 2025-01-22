@@ -21,7 +21,7 @@ public class Main
         //structureList.add(new Haiku());
         //A
         //B
-        //C
+        structureList.add(new RPGLimerick());
         //D
         //E
         //F
