@@ -3,7 +3,7 @@ import java.util.Random;
 public class Katanu implements Words {
 
     @Override
-    public String phrase() {
+    public String phrase(int syllables) {
         String[] oneSyllable = {
             "I", "love", "this", "class", "book"
         };
