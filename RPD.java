@@ -1,6 +1,6 @@
 import java.util.ArrayList;
 
-public class RPGLimerick extends Structure{
+public class RPD extends Structure{
     public void displayPoem(ArrayList<Words> words){
         //Long Syllable
         System.out.println(getRandomWords(words).phrase(5) + " " + getRandomWords(words).phrase(3) + "\n");
