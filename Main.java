@@ -15,7 +15,7 @@ public class Main
         wordsList.add(new Katanu());
         wordsList.add(new RafailLishman());
         wordsList.add(new DDreblow());
-        //10
+        wordsList.add(new Perttu());
         //11
 
         //structureList.add(new Haiku());
