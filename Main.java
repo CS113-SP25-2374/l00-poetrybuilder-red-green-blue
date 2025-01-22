@@ -6,9 +6,8 @@ public class Main {
     public static void main(String args[]) {
         wordsList.add(new ProfHorton());
         //1
-        wordsList.add(new Ethan());
         //3
-        //4
+        wordsList.add(new Ethan());
         //5
         //6
         //7
