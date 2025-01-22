@@ -4,7 +4,7 @@ public class Main {
     static ArrayList<Words> wordsList = new ArrayList<>();
     static ArrayList<Structure> structureList = new ArrayList<>();
     public static void main(String args[]) {
-        wordsList.add(new ProfHorton());
+        //wordsList.add(new ProfHorton());
         //1
         //2
         //3
@@ -13,7 +13,7 @@ public class Main {
         //6
         //7
         wordsList.add(new RafailLishman());
-        //9
+        wordsList.add(new DDreblow());
         //10
         //11
 
