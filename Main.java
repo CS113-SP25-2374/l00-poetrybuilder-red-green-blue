@@ -12,7 +12,7 @@ public class Main
         wordsList.add(new Ethan());
         wordsList.add(new FrankieN());
         wordsList.add(new KCMetzger());
-        wordsList.add(new Katanu());
+        //wordsList.add(new Katanu());
         wordsList.add(new RafailLishman());
         wordsList.add(new DDreblow());
         wordsList.add(new Perttu());
