@@ -12,7 +12,7 @@ public class Main {
         //5
         //6
         //7
-        //8
+        wordsList.add(new RafailLishman());
         //9
         //10
         //11
