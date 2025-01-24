@@ -16,6 +16,7 @@ public class Main
         wordsList.add(new RafailLishman());
         wordsList.add(new DDreblow());
         wordsList.add(new Perttu());
+        wordsList.add(new Levon());
         //11
 
         structureList.add(new PKH());
