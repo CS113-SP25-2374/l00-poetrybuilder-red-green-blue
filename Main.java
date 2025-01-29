@@ -17,6 +17,7 @@ public class Main
         wordsList.add(new DDreblow());
         wordsList.add(new Perttu());
         wordsList.add(new Levon());
+        wordsList.add(new NoahMarino());
         //11
 
         structureList.add(new PKH());
